@@ -1,8 +1,8 @@
 package com.example.controller;
 
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Date;
 
 /**
  * @author ：weizheng
@@ -29,6 +29,13 @@ public class HelloWorld {
     public String error() {
         int a = 100 / 0;
         return "100 / 0 = " + a;
+    }
+
+    @GetMapping(value = "testAdvice")
+    public String testAdvice(@ModelAttribute("user") String user, Date date) throws Exception {
+        System.out.println("user: " + user);
+        System.out.println("date: " + date);
+        throw new Exception("直接抛出异常");
     }
 
    public String getName() {

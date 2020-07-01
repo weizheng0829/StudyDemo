@@ -1,6 +1,8 @@
 com\example\controller\TestControllerException.class
 com\example\Main.class
+com\example\controller\TestAdvice.class
 com\example\controller\HelloWorld.class
 com\example\BussinessException.class
 com\example\ResultVO.class
+com\example\ControllerExceptionHandler.class
 com\example\ExceptionResolver.class

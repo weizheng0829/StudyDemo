@@ -22,15 +22,15 @@ public class TestControllerException {
         return "this is conError" + a;
     }
 
-    /**
-     * 单个controller进行异常处理
-     * @param e
-     * @return
-     */
-    @ExceptionHandler(Exception.class)
-    @ResponseBody
-    public String exceptionHandler(Exception e) {
-        System.out.println(e);
-        return "这是controller内的异常处理方法 。。。 ";
-    }
+//    /**
+//     * 单个controller进行异常处理
+//     * @param e
+//     * @return
+//     */
+//    @ExceptionHandler(Exception.class)
+//    @ResponseBody
+//    public String exceptionHandler(Exception e) {
+//        System.out.println(e);
+//        return "这是controller内的异常处理方法 。。。 ";
+//    }
 }
