@@ -1,6 +1,6 @@
 package com.example.controller;
 
-import com.example.BussinessException;
+import com.example.model.BussinessException;
 import org.springframework.web.bind.MissingServletRequestParameterException;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

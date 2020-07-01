@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SpringExceptionManage" />
+        <module name="StudySpring" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="StudySpring" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
